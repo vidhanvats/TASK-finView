@@ -1,3 +1,4 @@
+/* General Reset */
 * {
   padding: 0px;
   margin: 0px;
@@ -10,19 +11,23 @@ body {
   overflow-x: hidden;
 }
 
+/* Centered text */
 .t-center {
   text-align: center;
 }
 
+/* Flexbox container */
 .d-flex {
   display: flex;
 }
 
+/* Container */
 .container {
   width: 1140px;
   margin: auto;
 }
 
+/* Empowering Section */
 .empowering {
   padding-top: 50px;
   position: relative;
@@ -39,7 +44,7 @@ body {
 
 .empowering .feactures h2 {
   font-size: 34px;
-  padding: 5px 150px 5px 150px;
+  padding: 5px 150px;
   color: #27334d;
 }
 
@@ -49,6 +54,7 @@ body {
   font-size: 13px;
 }
 
+/* Swiper Container */
 .views {
   width: 100%;
   margin-top: 30px;
@@ -130,3 +136,31 @@ body {
 .loan-reviews .educational i {
   background-color: #fcb650;
 }
+
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+
+  .empowering .feactures h2 {
+    font-size: 28px;
+    padding: 5px 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper-slide {
+    width: 90%;
+    height: auto;
+  }
+
+  .empowering .feactures h2 {
+    font-size: 24px;
+    padding: 5px 20px;
+  }
+
+  .empowering .feactures .para {
+    font-size: 11px;
+  }
+}
+

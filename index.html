@@ -19,11 +19,11 @@
       <div class="feactures t-center">
         <p><img src="images/img07.png" alt="img" /> Featured Services</p>
         <h2>Empowering You with Loan Knowledge and Comparison Tools</h2>
-        <span class="para"
-          >We are dedicated to providing you with valuable services that
+        <span class="para">
+          We are dedicated to providing you with valuable services that
           simplify your loan search and empower you to make informed
-          <br />borrowing decisions. Our comprehensive range of services</span
-        >
+          <br />borrowing decisions. Our comprehensive range of services
+        </span>
       </div>
 
       <div class="swiper-container views">
@@ -117,6 +117,20 @@
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
+        },
+        breakpoints: {
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          272: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
         },
       });
     </script>
